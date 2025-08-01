@@ -25,12 +25,24 @@ header{
     max-width: 1200px;
     margin: 0 auto;
 }
-
+.btn-primary{
+    border: 1px solid #E02C6D;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 20px;
+    color:#fff;
+    padding: 8px;
+ 
+}
+.btn-primary:hover{
+    background-color:red;
+}
 /* navbar style */
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 80px;
 }
 .logo{
     font-size: 24px;
@@ -48,4 +60,26 @@ header{
     text-decoration: none;
     color: #3A3A3A;
 
+}
+.bannar-section{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.bannar-left{
+    margin-top: 146px;
+    max-width: 582px;
+    height: 270px;
+    margin-bottom:1rem ;
+}
+.bannar-title{
+    font-size:3.25rem ;
+}
+.bannar-left i{
+   margin-left: 5px;
+    
+}.img-2{
+    position: relative;
+    margin-left: -600px;
+    margin-bottom: -100px;
 }
