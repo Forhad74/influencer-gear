@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .poppins-regular{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -20,6 +20,14 @@
   font-weight: 700;
   font-style: normal;
 }
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
 /* shared */
 header{
     max-width: 1200px;
@@ -119,10 +127,40 @@ main>section{
     font-size:1.75rem ;
 }
 .popular-iltems{
-   
     box-shadow: 0 0 40px 0 #787885;
     text-align: center;
     padding: 15px 10px;
 }
 .popular-iltems img{
+    width: 100%;
+}
+.popular-title{
+    font-size: 1.75rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.popular-price{
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.popular-iltems i{
+    
+}
+.rating{
+    font-size: 0.875rem;
+    color: #5E6366;
+}
+.rating i{
+   font-size: 14px;
+   color: #FB8200;
+}
+#star-spa::after{
+    background-color:#FB8200;
+}
+.pupolar-description{
+    font-size: 14px;
+    color: #787885;
+     font-family: "Inter", sans-serif;
+     font-weight: 700;
 }
