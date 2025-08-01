@@ -101,3 +101,28 @@ main>section{
  justify-content: space-between;
 
 }
+/*popular collection style  */
+.popular-collection{
+    max-width:1088px;
+    margin: 0 auto;
+   
+
+}
+.popular-container{
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.popular-head-title{
+    text-align: center;
+    font-size:1.75rem ;
+}
+.popular-iltems{
+   
+    box-shadow: 0 0 40px 0 #787885;
+    text-align: center;
+    padding: 15px 10px;
+}
+.popular-iltems img{
+}
