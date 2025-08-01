@@ -34,6 +34,9 @@ header{
     padding: 8px;
  
 }
+main>section{
+    margin-top: 180px;
+}
 .btn-primary:hover{
     background-color:red;
 }
@@ -82,4 +85,19 @@ header{
     position: relative;
     margin-left: -600px;
     margin-bottom: -100px;
+}
+.par-logo{
+    max-width: 1110px;
+    margin: 0 auto;
+
+}
+.partner-logo{
+    max-width: 1110px;
+    margin: 0 auto;
+    align-items: center;
+}
+.container-log{
+ display: flex;
+ justify-content: space-between;
+
 }
