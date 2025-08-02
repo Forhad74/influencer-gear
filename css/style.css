@@ -135,6 +135,7 @@ main>section{
     box-shadow: 0 0 40px 0 #787885;
     text-align: center;
     padding: 15px 10px;
+     border-radius: 10px;
 }
 .popular-iltems img{
     width: 100%;
@@ -251,4 +252,7 @@ main>section{
 }
 .social-icon i{
     margin-left: 14px;
+}
+/* Responsive Style */
+@media screen and (max-width:576px){
 }
